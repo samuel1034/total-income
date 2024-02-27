@@ -1,0 +1,19 @@
+[package]
+name = "finance-app"
+version = "0.1.0"
+authors = ["samuelgenius"]
+edition = "2021"
+build = "build.rs"
+description = "A desktop app that divides up income"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.4"
+
+[build-dependencies]
+slint-build = "1.4"
+
+[package.metadata.bundle]
+name = "Finance App"
+identifier = "io.github.samuel1034.total-income"
