@@ -1,3 +1,20 @@
+# Specifics
+
+A simple desktop calculator for breaking income up into Profit First methodology.
+
+Change the percentages to whatever business model you have.
+
+Defaults are:
+
+- Tax percentage: 30%
+- Owner percentage: 55%
+- Profit percentage: 5%
+- Operating expenses percentage: 10%
+
+There is a test to check if your numbers equals 100%;
+
+`cargo run` to run it.
+
 # Slint Rust Template
 
 A template for a Rust application that's using [Slint](https://slint.rs) for the user interface.
